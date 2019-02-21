@@ -384,3 +384,27 @@ body {
 .button:active::after {
   opacity: .32
 }
+
+.button.button-gray {
+  background: #4B5A65;
+}
+
+.button.button-gray::after {
+  background: #2a3339;
+}
+
+.button.button-gray:hover {
+  background: #566774;
+}
+
+.button.button-gray:hover:after {
+  opacity: .22;
+}
+
+.button.button-gray:active {
+  background: #404d56;
+}
+
+.button.button-gray:after {
+  opacity: .32;
+}
