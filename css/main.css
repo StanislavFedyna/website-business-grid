@@ -619,3 +619,7 @@ input, textarea::placeholder{
   color: #507182;
 }
 
+.blog-home{
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr)
+}
