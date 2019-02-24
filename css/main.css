@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway:700');
-/* RalewayBold */
-@import url('https://fonts.googleapis.com/css?family=Raleway:800');
-/* Raleway EXTRA Bold */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-/* Raleway Regular */
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
 
 
 html {
@@ -315,7 +311,7 @@ body {
 }
 
 .header-content h1 {
-  font-family: intro-grid, sans-serif;
+  font-family: 'Patua One', cursive;
   font-size: 60px;
   font-weight: 400;
   line-height: 1.5;
@@ -416,6 +412,8 @@ body {
   padding: 10px;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  
+
 }
 
 .portfolio-item {
@@ -424,7 +422,7 @@ body {
   align-content: center;
   padding: 20px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
   color: #fff;
   position: relative;
   transition: color .5s ease;
@@ -433,6 +431,7 @@ body {
   -ms-transition: color .5s ease;
   -o-transition: color .5s ease;
   cursor: pointer;
+  font-family: 'Patua One', cursive;
 
 }
 
@@ -552,6 +551,7 @@ body {
 }
 
 .landing-section h2 {
+  font-family: 'Patua One', cursive;
   font-size: 34px;
   font-weight: bold;
   color: #293A43;
