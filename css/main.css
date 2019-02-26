@@ -283,7 +283,7 @@ body {
 .main-header {
   position: relative;
   min-height: 100vh;
-  background: url(../img/0-header.jpg);
+  background: url(../img/1-header.jpg);
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -299,7 +299,7 @@ body {
   bottom: 0;
   left: 0;
   content: '';
-  opacity: .92;
+  opacity: .75;
   background-color: #293a43;
 }
 
@@ -339,7 +339,7 @@ body {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   outline: 0;
-  background-color: #f0650d;
+  background-color: #ffd216;
 }
 
 .button::after {
@@ -368,7 +368,7 @@ body {
 }
 
 .button:hover {
-  background-color: #f37423;
+  background-color: #e2b600;
 }
 
 .button:hover::after {
@@ -376,7 +376,7 @@ body {
 }
 
 .button:active {
-  background-color: #d85b0c;
+  background-color: #c9a200;
 }
 
 .button:active::after {
@@ -436,7 +436,7 @@ body {
 }
 
 .portfolio-item:hover {
-  color: #F0650D;
+  color: #ffd216;
 
 }
 
